@@ -3,8 +3,21 @@
 
 @import "jekyll-theme-prologue";
 
+$base-color: rgb(22, 138, 233);
+
+// Navbar
+
+.image.avatar48 {
+    background: $base-color;
+    border-radius: 50%;
+}
+
+.image.avatar48 img {
+    border-radius: 50%;
+}
+
 #nav ul li a.active span::before {
-    color: rgb(22, 138, 233);
+    color: $base-color;
 }
 
 // Intro
