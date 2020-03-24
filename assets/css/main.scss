@@ -3,7 +3,28 @@
 
 @import "jekyll-theme-prologue";
 
-$base-color: rgb(22, 138, 233);
+$base-color: #0E5484;
+$soft-base-color: rgba(32, 112, 165, 0.486);
+
+.text-highlight {
+    color: $base-color;
+}
+
+.soft-border {
+    border-color: $soft-base-color;
+}
+
+h2 {
+    color: $base-color;
+}
+
+a {
+    color: $base-color;
+}
+
+#footer a {
+    color: inherit;
+}
 
 // Navbar
 
@@ -32,4 +53,22 @@ $base-color: rgb(22, 138, 233);
     background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
     border: 3px solid #f1f1f1;
     padding: 20px;
+}
+
+// About
+
+.music-font {
+    font-size: 1.3em;
+    font-family: "Brush Script MT", "Brush Script Std", "cursive"
+}
+
+.movies-font {
+    font-family: "Copperplate", "Optima", "sans-serif"
+}
+
+.about-quote {
+    font-style: normal;
+    border-left-color: $soft-base-color;
+    padding-left: 1.5em;
+    text-align: left;
 }
